@@ -10,7 +10,7 @@ app.get('/north', (req, res) => {
     res.sendFile(__dirname + '/pages/north.html');
 });
 
-app.get('/northwest', (req, res) => {
+app.get('/north-west', (req, res) => {
     res.sendFile(__dirname + '/pages/north-west.html');
 });
 
@@ -42,6 +42,6 @@ app.get('/far-north', (req, res) => {
     res.sendFile(__dirname + '/pages/far-north.html');
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Server listening on port 3000 at http://localhost:3000');
 });
