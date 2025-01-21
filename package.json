@@ -1,0 +1,15 @@
+{
+  "name": "informational-about-cameroon",
+  "version": "1.0.0",
+  "description": "\"Information about the ten regions of the country including the Divisions\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Andrew Dzokwom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
