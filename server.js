@@ -1,7 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const app = express();
-express.use(cors());
+app.use(cors());
 app.use(express.static('pages'));
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/pages/index.html');
